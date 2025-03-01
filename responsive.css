@@ -1,0 +1,541 @@
+/* ====== Breakpoint: Max-width 1199px ====== */
+@media (max-width: 1199px) {
+
+	/* Header / Navigation adjustments */
+	.top-bar {
+		display: none;
+	}
+
+	.navbar {
+		margin-top: 0;
+		display: flex;
+		justify-content: space-between;
+		padding: 7px;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.logo {
+		display: flex;
+		position: relative;
+		left: 0;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	/* Hero Section */
+	.hero-content h1 {
+		margin-left: 0;
+		padding: 0;
+		font-size: 36px;
+		line-height: 44px;
+	}
+
+	.multiple-text::after {
+		height: 40px;
+	}
+
+	/* Carousel */
+	.carousel-track img {
+		padding: 0 60px;
+	}
+
+	/* Business Section */
+	.business-h1 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.business-content {
+		gap: 45px;
+		flex-grow: 1;
+		align-self: stretch;
+		flex-wrap: wrap;
+	}
+
+	/* Card sizing */
+	.card {
+		width: 300px;
+	}
+
+	/* Section Header */
+	.section-header p {
+		width: 45%;
+		padding: 0 0 0 45px;
+	}
+
+	/* Flip Cards */
+	.flip-card-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.flip-card {
+		width: 510px;
+		height: 280px;
+	}
+
+	/* Title */
+	.title {
+		font-size: 30px;
+		line-height: 44px;
+	}
+
+	.right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.heading {
+		font-size: 30px;
+	}
+
+	.vision-content h3 {
+		font-size: 24px;
+	}
+
+	.web-development {
+		flex-direction: column;
+	}
+
+	.content {
+		width: 100%;
+		max-width: fit-content;
+	}
+
+	.header h1 {
+		font-size: 30px;
+	}
+
+	.call-to-action {
+		max-width: 100%;
+	}
+
+	.marketing-solutions {
+		flex-direction: column-reverse;
+	}
+
+	.image-section,
+	.content-section {
+		width: 100%;
+	}
+
+	.content-section h1 {
+		font-size: 30px;
+	}
+
+	.why-choose-title {
+		font-size: 30px;
+	}
+
+	.why-box {
+		flex-direction: column;
+	}
+
+	.icon-container {
+		align-self: flex-start;
+		margin-bottom: 10px;
+	}
+
+	.why-box::before {
+		left: 18%;
+		top: 25%;
+	}
+
+	.section-title {
+		font-size: 30px;
+	}
+
+	.eta-content {
+		flex-direction: column;
+	}
+
+	.eta-text {
+		width: 100%;
+		text-align: center;
+	}
+
+	.eta-text h2 {
+		font-size: 30px;
+	}
+
+	.footer-container {
+		display: none;
+	}
+
+	.footer-container-new {
+		display: flex;
+		flex-direction: row;
+		gap: 60px;
+		padding: 40px 30px 0 30px;
+	}
+
+	#footer-section-1 {
+		left: 0;
+	}
+
+	.footer-new-logo {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.footer-links-new {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.footer-section {
+		width: 50%;
+	}
+
+	.footer-logo {
+		width: 100%;
+	}
+
+	.payment-icons img {
+		width: 100%;
+		margin-top: 20px;
+		float: right;
+	}
+
+	.headline, #headline1, #headline2, #headline3, #headline4 {
+		min-height: 40vh;
+
+	}
+
+	#lottie-container svg {
+		bottom: 0;
+		top: 5px;
+	}
+
+	.headline-content {
+		margin: 50px 0;
+	}
+
+	.web-development-2{
+		flex-direction: column;
+	}
+
+	.text-content{
+		width: 100%;
+	}
+}
+
+/* ====== Breakpoint: Max-width 1024px ====== */
+@media (max-width: 1024px) {
+
+	/* Section Header */
+	.section-header h2 {
+		font-size: 32px;
+		line-height: 44px;
+		width: 45%;
+		padding-left: 20px;
+	}
+
+	.section-header {
+		gap: 20px;
+	}
+
+	/* Flip Cards */
+	.flip-card {
+
+		width: 400px;
+		height: 280px;
+	}
+
+	/* Service Tag */
+	.service-tag {
+		margin: 10px 45px;
+	}
+}
+
+/* ====== Breakpoint: Max-width 860px ====== */
+@media (max-width: 860px) {
+	.section-header {
+		gap: 0;
+	}
+
+	.section-header h2 {
+		font-size: 32px;
+		line-height: 44px;
+		width: 50%;
+		margin-left: 16px;
+		text-align: left;
+	}
+
+	.section-header p {
+		width: 43%;
+		padding: 0;
+	}
+
+	.flip-card {
+		/* width: 370px;
+		height: 280px; */
+		width: clamp(340px, 20vw, 350px);
+		aspect-ratio: 260 / 330;
+	}
+}
+
+/* ====== Breakpoint: Max-width 768px ====== */
+@media (max-width: 768px) {
+
+	/* Hero Section adjustments */
+	.hero-section {
+		display: block;
+	}
+
+	#lottie-animation {
+		margin-top: 30px;
+		/* Using 'fit-content' here preserves the image’s natural size */
+		width: fit-content;
+	}
+
+	.hero-content {
+		width: 100%;
+		padding-left: 15px;
+		margin: 30px 0 0 0;
+	}
+
+	.content-box {
+		/* Convert horizontal flex layout into vertical stacking */
+		flex-wrap: wrap;
+		justify-content: initial;
+		align-items: initial;
+		align-content: initial;
+		flex-direction: column;
+		flex-grow: 1;
+		flex-shrink: 1;
+		align-self: auto;
+	}
+
+	.hero-content h1 {
+		margin-left: 0;
+		padding: 0;
+		font-size: 30px;
+		line-height: 44px;
+	}
+
+	.hero-content p {
+		margin-left: 0;
+		padding: 0;
+		width: 55%;
+	}
+
+	/* Carousel */
+	.carousel-track img {
+		padding: 0 70px;
+	}
+
+	/* Business Section */
+	.business-content {
+		display: block;
+	}
+
+	.card {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	/* Section Header */
+	.service-tag {
+		margin: 10px 28px;
+	}
+
+	.section-header h2 {
+		width: 100%;
+		font-size: 30px;
+		margin: 0 12px;
+		padding-left: 16px;
+	}
+
+	.section-header p {
+		width: 100%;
+		padding: 0 28px;
+	}
+
+	/* Flip Cards */
+	.flip-card-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.flip-card {
+		width: 100%;
+		height: 280px;
+	}
+
+	.section-header {
+		display: block;
+	}
+
+	/* Title */
+	.title {
+		font-size: 28px;
+	}
+
+	/* Video Section */
+	.video-grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 30px;
+	}
+
+	.video-card {
+		max-width: 90%;
+	}
+
+	.vision-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.heading {
+		font-size: 28px;
+	}
+
+	.vision {
+		padding: 25px;
+	}
+
+	.vision-section h3 {
+		font-size: 26px;
+	}
+
+	.header h1 {
+		font-size: 28px;
+	}
+
+	.content-section h1 {
+		font-size: 28px;
+	}
+
+	.features {
+		flex-direction: column;
+	}
+
+	.web-development,
+	.marketing-solutions {
+		padding: 25px;
+	}
+
+	.why-choose-container {
+		padding: 25px;
+	}
+
+	.why-choose-title {
+		font-size: 28px;
+	}
+
+	.why-box-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.section-title {
+		font-size: 28px;
+	}
+
+	.blogs {
+		flex-direction: column;
+	}
+
+	.blog {
+		margin: 0 auto;
+		width: 80%;
+		padding: 0 20px;
+	}
+
+	.eta-text h2 {
+		font-size: 28px;
+	}
+
+	.eta-label {
+		padding: 5px;
+	}
+
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-links {
+		flex-direction: column;
+	}
+
+	.footer-section {
+		width: 100%;
+	}
+
+	.footer-container-new {
+		display: none;
+	}
+
+	.footer-bottom {
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.payment-icons {
+		margin: 0 auto;
+	}
+
+	.footer-bottom p {
+		padding: 0;
+	}
+
+	.payment-icons img {
+		margin-top: 20px;
+		margin-left: 0;
+		padding: 0;
+		float: unset;
+	}
+
+
+	.headline-content-box {
+		padding: 0 25px;
+	}
+
+	.headlines h1 {
+		font-size: 30px;
+	}
+
+	.headline-btn {
+		flex-wrap: wrap;
+	}
+}
+
+/* ====== Breakpoint: Max-width 414px ====== */
+@media (max-width: 414px) {
+	.section-header p {
+		width: 100%;
+		padding: 0 28px;
+	}
+}
+
+/* ====== Breakpoint: Max-width 396px ====== */
+@media (max-width: 396px) {
+	.hero-content h1 {
+		margin-left: 0;
+		padding: 0;
+		font-size: 28px;
+		line-height: 44px;
+	}
+
+	.section-header h2 {
+		width: 100%;
+		font-size: 28px;
+	}
+}
+
+
+@media (max-width:500px) {
+	.eta-buttons {
+		flex-direction: column;
+	}
+}
